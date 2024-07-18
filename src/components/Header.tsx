@@ -1,8 +1,7 @@
-import React from "react";
+
 import { AiOutlineMessage } from "react-icons/ai";
 import { FaRegBell } from "react-icons/fa";
 import { IoSearchOutline, IoSunny } from "react-icons/io5";
-import { Label } from "./ui/label";
 import { Switch } from "./ui/switch";
 import ProfilePic from "../assets/ProfilePic.png"
 
@@ -20,7 +19,6 @@ const Header = () => {
       <div className="h-full w-[40%] flex justify-end items-center px-8 gap-5">
         <div className="flex items-center h-8 w-16">
           <Switch
-            size={""}
             id="airplane-mode"
             className="h-full text-black w-full p-[2px]"
           >

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaArrowUp } from "react-icons/fa";
 import { IoEyeOutline } from "react-icons/io5";
 import { LuShoppingCart } from "react-icons/lu";
